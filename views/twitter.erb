@@ -1,0 +1,23 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="application.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+
+    <title>Bring it On!</title>
+  </head>
+
+<body>
+  <div>
+      <h1>Who won?</h1>
+    
+      <p>Your two twits were '<span class="highlight"><%= @user1.login %></span>' and '<span class="highlight"><%= @user2.login %></span>'.</p>
+    </div>
+
+    <div>
+      <h4>And the winner is...</h4>
+      <H3><span class="highlight"><%= @result %></span></h3>
+    </div>
+</body>
+</html>
